@@ -4,9 +4,205 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>CV</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald&display=swap" rel="stylesheet">
+
+	<script src="https://kit.fontawesome.com/298294d20b.js" crossorigin="anonymous"></script>
 </head>
 <body>
-	
+	<div class="wrapper">
+	<header class="header">
+		<div class="container nav-block">
+			<nav class="nav nav-main hidden-xs">
+				<ul class="nav-list clearfix"  id="magicLineNav">					
+						<li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+						<li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+						<li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+						<li class="nav-item"><a href="#code" class="nav-link">Code</a></li>					
+						<li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+						<li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+						<li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+						<li class="nav-item"><a href="#english" class="nav-link">English</a></li>				
+				</ul>
+				<div class="line"></div>
+			</nav>
+		</div>
+	</header>
+	<main class="main">
+			<div class="container ta-right">
+				<section class="section  mb-23" id="courses">
+					<h2 class="section-title dotted">
+						Courses
+					</h2>
+					<div>
+						<p class="p-hight">JS/FE Pre-School 2022Q2</p>
+						<p>RS School</p>
+						<p class="p-small">June 2022 - Current</p>
+					</div>
+					<div>
+						<p class="p-hight">JavaScript/Front-end 2022Q3</p>
+						<p>RS School</p>
+						<p class="p-small">Pending</p>
+					</div>	
+				</section>				
+				<section class="section mb-23" id="projects">
+					<h2 class="section-title dotted">
+						Projects
+					</h2>
+					<div class="block">
+						<div class="project">
+							<a href="https://IvanGess.github.io/rsschool-cv/">
+								<figure>
+									<img src="assets/img/MyCV.jpg" alt="MyCV">
+									<figcaption>
+										<div class="project-name">My CV Project</div>
+										<div class="project-description"></div>
+									</figcaption>
+								</figure>
+								
+							</a>
+						</div>
+						<div class="project"></div>
+					</div>
+				</section>
+				<section class="section" id="languages">
+					<h2 class="section-title dotted">
+						Languages
+					</h2>
+					<ul>
+						<li>
+							<label for="russian">Russian</label>
+							<progress class id="russian" value="6" max="6"> 100% </progress>
+						</li>							
+						<li>
+							<label for="english">English - A2</label>
+							<progress id="english" value="2" max="6"> 40% </progress>
+						</li>
+					</ul>
+				</section>
+			</div>
+			<div class="container bg-blue">
+				<section class="section" id="profile">
+					<div class="img">				
+						<svg viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+							<defs>
+							<pattern id="img" patternUnits="userSpaceOnUse" width="100" height="100">
+								<image xlink:href="assets/img/1.jpg" alt="avatar" x="-25" width="150" height="100" />
+							</pattern>
+							</defs>
+							<polygon id="hex" points="50 1 95 25 95 75 50 99 5 75 5 25" fill="url(#img)"/>
+						</svg>
+					</div>	
+					<h1 class="section-title uppercase">
+						Ivan Gess
+					</h1>
+					<p class="italics-small ">Junior Front-end Developer</p>
+				</section>
+				<section class="section dotted-bottom" id="summary">					
+					<p class="mb-23">After years of working in the business area as a  manager, I decided to change my life. 
+						My intention is to work as a full-stack web developer. 
+						There is a great desire to develop in this direction.
+					</p>
+				</section>
+				<section class="section dotted-bottom" id="contacts">
+				<h2 class="section-title">
+					Contacts
+				</h2>
+				<ul class="contacts">
+					<li>Phone <a  href="tel:+79029973566">+7-902-997-3566</a></li>
+					<li>E-mail <a href="mailto:ivangess89@gmail.com">ivangess89@gmail.com</a></li>
+					<li>Github <a href="https://github.com/IvanGess">IvanGess</a></li>
+					<li>Discord <a href="https://discordapp.com/users/938082847825227858">Ivan Gess (@IvanGess)</a></li>
+				</ul>
+				</section>
+				<section class="section">
+					<h2 class="section-title">
+						Interests
+					</h2>
+					<ul class="interest">
+						<li><i class="fa-solid fa-laptop-code fa-2xl"></i>Coding</li>
+						<li><i class="fa-solid fa-dumbbell fa-2xl"></i>Training</li>
+						<li><i class="fa-solid fa-flask-vial  fa-2xl"></i></i>Cooking</li>
+						<li><i class="fa-solid fa-graduation-cap fa-2xl"></i>Studying</li>
+					</ul>
+				</section>				
+			</div>
+			<div class="container ta-left">
+				<section class="section" id="education">
+					<h2 class="section-title dotted">
+						Education
+					</h2>
+					<div>
+						<p class="p-hight">Higher education</p>
+						<p>Altai State Technical University (world economic organization)</p>
+						<p class="p-small">Sep 2006 - June 2012</p>
+					</div>
+					<div>
+						<p class="p-hight">Front-end</p>
+						<p>RS School</p>
+						<p class="p-small">June 2022 - Current</p>
+					</div>					
+				</section>
+				<section class="section mb-23" id="code">
+				<h2 class="section-title dotted">
+					Sample code
+				</h2>
+				<div class="block">
+					<code>
+						function multiply(a, b){ <br>
+							return a * b <br>
+						}
+					</code>
+				</div>								
+				</section>				
+				<section class="section" id="skills">
+					<h2 class="section-title dotted">
+						Skills
+					</h2>
+					<ul>
+						<li>							
+							<progress id="html" value="90" max="100"> 90% </progress>
+							<label for="html">HTML</label>
+						</li>
+						<li>							
+							<progress id="css" value="70" max="100"> 70% </progress>
+							<label for="css">CSS</label>
+						</li>
+						<li>							
+							<progress id="javascript" value="20" max="100"> 20% </progress>
+							<label for="javascript">JavaScript</label>
+						</li>
+						<li>							
+							<progress id="git" value="30" max="100"> 30% </progress>
+							<label for="git">Git</label>
+						</li>
+						<li>			
+							<progress id="vscode" value="50" max="100"> 50% </progress>
+							<label for="vscode">VS Code</label>
+						</li>
+					</ul>
+				</section>				
+			</div>			
+	</main>
+	<footer class="footer">
+		<div class="container footer-block">
+			<div><p>&#169; 2022</p></div>
+			<div >
+				<a href="https://github.com/IvanGess"><div class="git-link"></div></a>
+			</div>
+			<div>
+				<a href="https://rs.school/js/"><img class="rs-link" 
+					src="https://rs.school/images/rs_school_js.svg" alt="RSSchool" width="100" ></a>
+			</div>
+		</div>
+	</footer>
 </body>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="/rsschool-cv/assets/js/scrypt.js"></script>
 </html>
