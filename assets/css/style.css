@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+	
+  }
+
+  html {
+	scroll-behavior: smooth; 
+  }
+
+  h1, h2 {
+	  margin: 5px;
+	  text-align: center;
+  }
+
+ p {
+	margin: 5px;
+}
+
+  body {
+	  margin: 0; 
+	  padding: 0;
+	  align-items: center;
+  	  min-height: 100vh;
+
+	  display: flex;
+	  justify-content: center;
+	  flex-direction: column;
+	  font-family: 'Kdam Thmor Pro', sans-serif;
+	  color: white;
+	  
+	  background-color: rgb(31, 35, 38);
+	  min-width: fit-content;
+  }
+  li {
+	  list-style-type: none;
+  }
+
+  .dotted {
+	border-bottom: 3px dotted rgb(38, 57, 72);
+	border-top: 3px dotted rgb(38, 57, 72);
+  }
+
+  .dotted-bottom {
+	border-bottom: 3px dotted rgba(255, 255, 255, 0.582);
+  }
+
+  .wrapper {  
+	background-image: url("/rsschool-cv/assets/img/bg.png");
+	background-size: auto 50%;
+	background-position: top center;
+	  background-repeat: no-repeat;
+	  display: flex;
+	  flex-direction: column;
+	  max-width: 1440px;
+	  text-align: center;
+	  
+  }
+
+  .main {
+	  display: flex;
+	  margin-top: 200px;
+  }
+
+  .main>.container {
+	width: 33%;
+  }
+
+  main>.container {
+	  padding: 30px;
+	  
+  }
+
+ 
+
+  .nav-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+
+  .nav-link {
+	  padding: 0 30px;
+	  line-height: 50px;
+	  text-decoration: none;
+	  color: white;
+	  transition: .3s;
+	  font-size: 20px;
+	  
+  }
+
+  .nav-item {
+	transition: 1s;
+  }
+
+  .nav-item:hover {
+	transform: scale(1.2);
+  }
+
+  .section-item a {
+	color: #829985;
+	text-decoration: none;  
+	transition: color 0.5s;
+  }
+
+   h2 {
+	overflow: hidden;
+	background: linear-gradient(to right, white, rgb(38, 57, 72) 50%, white 50%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-size: 200% 100%;
+	background-position: 100%;
+	transition: background-position 600ms ease;
+	text-decoration: none; 
+	
+  }
+
+  h2:hover {
+	  background-position: 0 100%;
+	}
+
+  .section-item a:hover {
+	color: #4d2323;
+  }
+
+  .container {
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: nowrap;
+  }
+
+  .bg-blue {
+	  background-color: rgb(38, 57, 72);
+	  border-radius: 20px;
+	  margin-top: -50px;
+  }
+
+  .img {
+	  margin-top: -170px;
+	  transition: 1s;
+  }
+  
+  .pt-50 {
+	  padding-top: 50px;
+  }
+  
+  #hex{
+	stroke-width:2;
+	stroke: white;
+  }
+  
+  .ta-left {
+	  text-align: left;
+  }
+
+  .ta-right {
+	text-align: right;
+}
+
+.p-hight {
+ color: rgb(55, 83, 104);
+ text-transform: uppercase;
+}
+
+.p-small {
+	color: grey;
+	font-size: 12px;
+}
+
+section>div {
+	margin-top: 20px;
+}
+
+.italics-small {
+	font-style: italic;
+	font-size: 12px;
+	padding-bottom: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+.block {
+	background-color: rgba(65, 99, 124, 0.575);
+	border-radius: 20px;
+	height: 220px;
+	display: flex;
+}
+
+.project {
+	border-radius: 10px;
+	width: 45%;
+	justify-content: space-between;
+	margin: 10px;
+	background-color: rgba(195, 216, 231, 0.575);
+	max-height: 200px;
+	display: flex;
+}
+
+.mb-23 {
+	margin-bottom: 23px;
+}
+
+progress{
+	margin-right: 20px;
+	margin-left: 0;
+}
+	
+progress#russian, progress#english {
+	margin-right: 0;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+
+.nav-block {
+	background-color: rgba(38, 57, 72, 0.836);
+	border-radius: 0 0 20px 20px;
+	max-height: 50px;
+	width: 90%;
+	margin: auto;
+}
+
+.footer-block {
+	background-color: rgb(38, 57, 72);
+	border-radius: 20px 20px 0 0;
+	min-height: 80px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 90%;
+	margin: 20px auto 0;
+	align-items: center;
+}
+
+.footer-block>div {
+	margin: auto;
+}
+
+.git-link {
+	width: 64px;
+	height: 64px;
+	background: url(/rsschool-cv/assets/img/GitHub-Mark-64px.png);
+	transition: 1s;
+}
+
+.git-link:hover {
+	background: url(/rsschool-cv/assets/img/GitHub-Mark-Light-64px.png);
+	transform: scale(1.2);
+}
+
+.rs-link {
+	transition: 1s;
+}
+
+.rs-link:hover {
+	transform: scale(1.2);
+}
+
+.img:hover {
+	transform: scale(1.2);
+}
+
+.project > a img {
+	width: 13vw;
+	height: 200px;
+	object-fit: cover;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.project > a{
+transition: 1s;
+}
+
+.project > a:hover {
+	transform: scale(1.2);
+}
+
+figure {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	overflow: hidden;
+}
+
+figcaption {
+	position: absolute;
+	top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 75px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+  transform: translateY(100%);
+  transition: 0.4s;
+}
+
+a:hover figcaption {
+	transform: translateY(0%);
+  }
+
+  figcaption > div {
+	text-align: center;
+  }
+
+  .project-name, .project-description {
+	color: white;
+	
+  }
+  
+  progress {
+	--time: 2s;
+	height: 15px; width: 50;
+	border-radius: 4px;
+	background-color: rgba(146, 174, 214, 0.788);
+	animation: scale-webkit var(--time) forwards;
+  }
+  
+  @property --scale {
+	syntax: '<number>';
+	inherits: true;
+	initial-value: 0;
+  }
+  progress::-webkit-progress-bar {
+	background-color: transparent;
+  }
+  progress::-webkit-progress-value {
+	transform-origin: 0 50%;
+	transform: scaleX(var(--scale));
+	border-radius: 2px;
+	background-color: rgb(38, 57, 72);
+  }
+  @keyframes scale-webkit { to { --scale: 1; }}
+
+  #magicLineNav {
+	list-style: none;
+	} 
+	.line {
+	  position: absolute;
+	  left: 0;
+	  width: 0;
+	  border-bottom: 2px solid white;
+	  transition: width .5s;
+	  margin-top: -20px;
+	} 
+	.line:after {
+	  content: '';
+	  float: right;
+	  width: 10px;
+	  height: 10px;
+	  border-radius: 50%;
+	  background: white;
+	  position: relative;
+	  top: 5px;
+	}
+
+	code {
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	.interest {
+		display: flex;
+		justify-content: center;	
+		margin: 0;
+		padding: 0;
+		
+	  }
+	  
+	  .interest > li {
+		  padding: auto;
+		  display: flex;
+		  flex-direction: column;
+	  }
+
+	  i{
+		  padding: 20px;
+	  }
+	  
+	  .contacts >li {
+		display: flex;
+		flex-direction: column;	
+		margin-top: 10px;	
+	  }
+
+	  .contacts >li a {
+		text-decoration: none;
+		color: rgb(100,122,146);
+		
+	  }
+
+	  
+  @media (max-width: 991px) {
+	.main{
+		flex-direction: column;
+		flex-wrap: wrap;
+	  }
+
+	  .main>.container {
+		  width: 100vw;
+	  }
+
+	.main>.bg-blue {
+		order: -1;
+	}
+
+	.footer-block, .nav-block {
+		width: 90vw;
+		margin-left: 30px;
+	}
+
+	#courses, #education {
+		text-align: center;
+	}
+
+	.nav-link {
+		font-size: 12px;
+		padding: 0 10px;
+	}
+
+	.project > a img {
+		width: 42vw;
+	}
+
+	figcaption {
+		padding: 90px;
+	}
+
+	#languages>ul {
+		margin-right: 15vw;
+	}
+
+	#skills>ul {
+		margin-left: 15vw;
+	}
+}
+
