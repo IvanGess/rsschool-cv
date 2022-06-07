@@ -3,7 +3,7 @@ function menu() {
 		line = jQuery('.line'),
 		start = menu.offset().left;
 	jQuery('li', menu).hover(function() {
-	  line.width(start + $(this).position().left + $(this).width() / 22);
+	  line.width($(this).position().left + $(this).width() / 2);
 	}, function() {
 	  line.width(0);
 	})
